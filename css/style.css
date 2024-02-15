@@ -1,0 +1,120 @@
+body{
+   line-height: 1.5;
+}
+
+
+header, nav{
+    margin: 20px;
+    padding: 5px 10px;
+
+}
+nav ul li{
+    /* Set display, margin, padding, font-size, background-color */
+    display: inline-block;
+    margin: 10px 10px 10px 0;
+    font-size: large;
+    background-color: gainsboro;
+    padding: 5px 0;
+
+}
+
+nav a{
+    /* Set text decoration*/
+    text-decoration: none;
+    color: black;
+}
+
+a:visited{
+    /* Set color */
+    color: red;
+
+}
+
+nav a.current{
+    /* Set text decoration, transformation, and underline properties */
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-transform: uppercase;
+    color:blue;
+}
+
+
+h1{
+   /*Set font and font size*/
+   font-family: 'Times New Roman', Times, serif;
+   font-size: x-large;
+
+}
+
+h2{
+    /*Set font, font size, and alignment*/
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+
+h3{
+    /*Set font size*/
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+
+}
+
+h1, h2, h3{
+    /*Set margin */
+    margin: 20px;
+
+}
+.grid{
+    /*Set width, margin, border properties, background color, and grid properties */
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+
+.grid div{
+    /* Set border properties, padding, and background color */
+    border-radius: 10px;
+    padding: 10px;
+    background-color: lightgray;
+    border: 2px solid black;
+
+}
+
+.grid img{
+    /* Set width, margin, and display */
+    width: 90%;
+    margin: 0 auto;
+    height: auto;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+
+.grid div:nth-child(3n+1)  {
+    /* Set box shadow */
+    }
+
+.grid div:nth-child(3n)  {
+    /* Set box shadow */ 
+}
+
+.grid div:nth-child(3n+2)  {
+     /* Set box shadow */
+}
+    
+
+p + p {
+     /* Set indentation */
+  }
+  
+p{
+     /* Set margin */
+}
+
+
+.grid ul li{
+    /* Set margin, line-spacing, list styling  */
+}
